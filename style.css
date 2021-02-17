@@ -8,7 +8,8 @@
 }
 
 body {
-  background-color: rgb(239, 248, 248);
+  background-color: #eff8f8;
+  padding: 12px;
 }
 
 .container {
