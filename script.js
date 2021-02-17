@@ -15,7 +15,10 @@ const clear = document.getElementById("clear");
 let todos;
 
 // Getting all the todos from Localstorage
-if (localStorage.getItem("todos") !== "") {
+if (
+  localStorage.getItem("todos") !== "" &&
+  localStorage.getItem("todos") !== null
+) {
   todos = JSON.parse(localStorage.getItem("todos"));
 } else {
   todos = [];
