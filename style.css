@@ -15,7 +15,7 @@ body {
 .container {
   max-width: 600px;
   margin: 5em auto;
-  padding: 1.5em 3em;
+  padding: 1.5em 1em;
   text-align: center;
   border-radius: 10px;
   perspective: 1000px;
@@ -148,12 +148,13 @@ i:nth-child(2) {
 .line {
   display: none;
   position: absolute;
-  width: 40%;
+  width: 0%;
   height: 2px;
   background-color: #333;
 }
 .line.show {
   display: block;
+  width: 50%;
 }
 
 @media screen and (max-width: 510px) {

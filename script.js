@@ -98,6 +98,7 @@ function completed() {
       line.forEach((line) => {
         if (done.id === line.id) {
           line.classList.toggle("show");
+
           const todoObj = todos.find((todo) => {
             return +done.id === todo.id;
           });
