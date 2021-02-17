@@ -7,3 +7,5 @@
 # Snapshots of the website
 
 ## 1. Mobile view
+
+![mobile_view_1]()
